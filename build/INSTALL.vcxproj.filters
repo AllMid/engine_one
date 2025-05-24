@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\develop_cpp\cmake-sfml-project-master\build\CMakeFiles\e2f8c2ae1516c13b023f8c83f0efebec\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{461257BB-2DB8-3451-8090-51B05BEC8D14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

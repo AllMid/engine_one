@@ -1,0 +1,2268 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"build" : "_deps/sfml-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build-Debug-bb7e02470ead5aea3c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML-Debug-ce43665c07032d56571e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML"
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.System-Debug-efeaf1dbe54ae1c5fc80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/System",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Main-Debug-82f45a50624a6ec41337.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Main",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Window-Debug-401105de051caa4ceb9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Network-Debug-c359f926cda7d18a19d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Graphics",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Graphics-Debug-b26d22118bf9642cab9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/freetype-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freetype-build-Debug-657b326866f62310b367.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "build/_deps/freetype-src",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Audio",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Audio-Debug-5ee6706147a941dde88a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Audio",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/ogg-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ogg-build-Debug-c76799e93a13baad661a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "build/_deps/ogg-src",
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"build" : "_deps/flac-build",
+					"childIndexes" : 
+					[
+						12,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build-Debug-4e99ab024b5ea219b989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/flac-build/src",
+					"childIndexes" : 
+					[
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src-Debug-1d4dfeeba802ece90ca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src"
+				},
+				{
+					"build" : "_deps/flac-build/src/libFLAC",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src.libFLAC-Debug-dc7a21ff96d5b4e18eee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src/libFLAC",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/flac-build/microbench",
+					"jsonFile" : "directory-_deps.flac-build.microbench-Debug-ebc5923c3599b4f464c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/microbench"
+				},
+				{
+					"build" : "_deps/vorbis-build",
+					"childIndexes" : 
+					[
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build-Debug-d0d3f7f6a15b4cebe23e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/vorbis-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build.lib-Debug-acd0fb2a641e1e758db8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src/lib",
+					"targetIndexes" : 
+					[
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMakeSFMLProject",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "freetype",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "libogg",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14
+					],
+					"name" : "FLAC",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15,
+						16
+					],
+					"name" : "vorbis",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
+					"jsonFile" : "target-ALL_BUILD-Debug-a488c4273deebb7dbd4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@d05cb0ff2bec6fe78f9d",
+					"jsonFile" : "target-ALL_BUILD-Debug-08a0a8c1d1698ec4169d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-ALL_BUILD-Debug-b97c307a8875aa0c2e02.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-385527b5fd537a361dbb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@5df98b4ecdae321c3ae2",
+					"jsonFile" : "target-ALL_BUILD-Debug-9cc3e82fc2e8c75ba8b8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ALL_BUILD-Debug-16d9a62b68cbd80c3d8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "FLAC::@d572677c3819035d9b3d",
+					"jsonFile" : "target-FLAC-Debug-5caaf0307ecac1903085.json",
+					"name" : "FLAC",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-26a7e7d5eb43635d6304.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "freetype::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-freetype-Debug-755b7dcbdf0afafb1e33.json",
+					"name" : "freetype",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-6530b60395514eb65191.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ogg::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ogg-Debug-d0ed15b17da9627f6add.json",
+					"name" : "ogg",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sfml-audio::@a153e5727587c53fce98",
+					"jsonFile" : "target-sfml-audio-Debug-07f3870f19e50c356c89.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
+					"jsonFile" : "target-sfml-graphics-Debug-3f7d604d365e681accbf.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-main::@81ec5539f1398dd625f6",
+					"jsonFile" : "target-sfml-main-Debug-8ac5d68ba8ab922f00f2.json",
+					"name" : "sfml-main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-network::@d7f79968b2699e7782cb",
+					"jsonFile" : "target-sfml-network-Debug-680811618aae6ee75396.json",
+					"name" : "sfml-network",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml-system::@8cb1db2982443611e568",
+					"jsonFile" : "target-sfml-system-Debug-c362db0911b90dd40bcd.json",
+					"name" : "sfml-system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-window::@5730451e331e3690ae65",
+					"jsonFile" : "target-sfml-window-Debug-57947c04b55e3e2b9c53.json",
+					"name" : "sfml-window",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbis::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbis-Debug-f9ab757e1ef3c68e9a87.json",
+					"name" : "vorbis",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisenc::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisenc-Debug-ede343f9bff55a0da66b.json",
+					"name" : "vorbisenc",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisfile::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisfile-Debug-76af574c7dcd3bb1845e.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 5
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"build" : "_deps/sfml-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build-Release-bb7e02470ead5aea3c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML-Release-ce43665c07032d56571e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML"
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.System-Release-1408036c341662897ce7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/System",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Main-Release-76d6c8aa88168d55a87f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Main",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Window-Release-335bdf5b91622c80be2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Network-Release-dde3387e5cc0dc2436a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Graphics",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Graphics-Release-7f825e0c0ae05016d5cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/freetype-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freetype-build-Release-e71423ab377617ce824f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "build/_deps/freetype-src",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Audio",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Audio-Release-4707f7e9a300935f53dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Audio",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/ogg-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ogg-build-Release-6e3a2ac42e736ceee119.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "build/_deps/ogg-src",
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"build" : "_deps/flac-build",
+					"childIndexes" : 
+					[
+						12,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build-Release-4e99ab024b5ea219b989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/flac-build/src",
+					"childIndexes" : 
+					[
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src-Release-1d4dfeeba802ece90ca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src"
+				},
+				{
+					"build" : "_deps/flac-build/src/libFLAC",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src.libFLAC-Release-6130004c04bc5453d5a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src/libFLAC",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/flac-build/microbench",
+					"jsonFile" : "directory-_deps.flac-build.microbench-Release-ebc5923c3599b4f464c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/microbench"
+				},
+				{
+					"build" : "_deps/vorbis-build",
+					"childIndexes" : 
+					[
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build-Release-d0d3f7f6a15b4cebe23e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/vorbis-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build.lib-Release-5ebfa841c632a5f7db6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src/lib",
+					"targetIndexes" : 
+					[
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMakeSFMLProject",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "freetype",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "libogg",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14
+					],
+					"name" : "FLAC",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15,
+						16
+					],
+					"name" : "vorbis",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
+					"jsonFile" : "target-ALL_BUILD-Release-a488c4273deebb7dbd4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@d05cb0ff2bec6fe78f9d",
+					"jsonFile" : "target-ALL_BUILD-Release-08a0a8c1d1698ec4169d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-ALL_BUILD-Release-b97c307a8875aa0c2e02.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-385527b5fd537a361dbb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@5df98b4ecdae321c3ae2",
+					"jsonFile" : "target-ALL_BUILD-Release-9cc3e82fc2e8c75ba8b8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ALL_BUILD-Release-16d9a62b68cbd80c3d8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "FLAC::@d572677c3819035d9b3d",
+					"jsonFile" : "target-FLAC-Release-c186e47615f7d192f44e.json",
+					"name" : "FLAC",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-26a7e7d5eb43635d6304.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "freetype::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-freetype-Release-f7af64c29f584aae8da0.json",
+					"name" : "freetype",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Release-734e1d1607b2f8e245c0.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ogg::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ogg-Release-ae1441863f24b22e4463.json",
+					"name" : "ogg",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sfml-audio::@a153e5727587c53fce98",
+					"jsonFile" : "target-sfml-audio-Release-f5127448e8cc08b029d8.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
+					"jsonFile" : "target-sfml-graphics-Release-e7a80ea216d18af85b24.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-main::@81ec5539f1398dd625f6",
+					"jsonFile" : "target-sfml-main-Release-c2f24b6f1aa94fc3d5fa.json",
+					"name" : "sfml-main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-network::@d7f79968b2699e7782cb",
+					"jsonFile" : "target-sfml-network-Release-63d7db752669021624e7.json",
+					"name" : "sfml-network",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml-system::@8cb1db2982443611e568",
+					"jsonFile" : "target-sfml-system-Release-cbecbe485533b803e3ca.json",
+					"name" : "sfml-system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-window::@5730451e331e3690ae65",
+					"jsonFile" : "target-sfml-window-Release-592cd331c0bd8731421a.json",
+					"name" : "sfml-window",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbis::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbis-Release-d3fe7c619aacdeeb331d.json",
+					"name" : "vorbis",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisenc::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisenc-Release-62148d8b6a16e3e8e67e.json",
+					"name" : "vorbisenc",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisfile::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisfile-Release-68b8a881bafb44aa4759.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 5
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"build" : "_deps/sfml-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build-MinSizeRel-bb7e02470ead5aea3c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML-MinSizeRel-ce43665c07032d56571e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML"
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.System-MinSizeRel-c9a68b59ff35fc567444.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/System",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Main-MinSizeRel-cd280eca179c9db5dbb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Main",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Window-MinSizeRel-041536c4f1e20dddc331.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Network-MinSizeRel-f1f66a9b597af8623c87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Graphics",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Graphics-MinSizeRel-6a77ad38286e4beb266c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/freetype-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freetype-build-MinSizeRel-66bc96d47f1b646a9d73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "build/_deps/freetype-src",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Audio",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Audio-MinSizeRel-313b46346dd48c78f85e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Audio",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/ogg-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ogg-build-MinSizeRel-f3117dc6ac009f6007e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "build/_deps/ogg-src",
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"build" : "_deps/flac-build",
+					"childIndexes" : 
+					[
+						12,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build-MinSizeRel-4e99ab024b5ea219b989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/flac-build/src",
+					"childIndexes" : 
+					[
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src-MinSizeRel-1d4dfeeba802ece90ca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src"
+				},
+				{
+					"build" : "_deps/flac-build/src/libFLAC",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src.libFLAC-MinSizeRel-141d34c356cbd2d4ec2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src/libFLAC",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/flac-build/microbench",
+					"jsonFile" : "directory-_deps.flac-build.microbench-MinSizeRel-ebc5923c3599b4f464c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/microbench"
+				},
+				{
+					"build" : "_deps/vorbis-build",
+					"childIndexes" : 
+					[
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build-MinSizeRel-d0d3f7f6a15b4cebe23e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/vorbis-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build.lib-MinSizeRel-67635cb7b7ecdda3bf98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src/lib",
+					"targetIndexes" : 
+					[
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMakeSFMLProject",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "freetype",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "libogg",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14
+					],
+					"name" : "FLAC",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15,
+						16
+					],
+					"name" : "vorbis",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a488c4273deebb7dbd4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@d05cb0ff2bec6fe78f9d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-08a0a8c1d1698ec4169d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b97c307a8875aa0c2e02.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-385527b5fd537a361dbb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@5df98b4ecdae321c3ae2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9cc3e82fc2e8c75ba8b8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-16d9a62b68cbd80c3d8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "FLAC::@d572677c3819035d9b3d",
+					"jsonFile" : "target-FLAC-MinSizeRel-83bcc3f60c3edfe1f78c.json",
+					"name" : "FLAC",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-26a7e7d5eb43635d6304.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "freetype::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-freetype-MinSizeRel-5a68dc4b8e736258ffa4.json",
+					"name" : "freetype",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-MinSizeRel-de39412a9717d8603ed1.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ogg::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ogg-MinSizeRel-e08ef60657564dc2efa7.json",
+					"name" : "ogg",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sfml-audio::@a153e5727587c53fce98",
+					"jsonFile" : "target-sfml-audio-MinSizeRel-8d54ed2d5a148ac2b892.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
+					"jsonFile" : "target-sfml-graphics-MinSizeRel-c762281ae4d0032b723f.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-main::@81ec5539f1398dd625f6",
+					"jsonFile" : "target-sfml-main-MinSizeRel-448f41fdf4f5131a15a7.json",
+					"name" : "sfml-main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-network::@d7f79968b2699e7782cb",
+					"jsonFile" : "target-sfml-network-MinSizeRel-4dfedc0f40d741464010.json",
+					"name" : "sfml-network",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml-system::@8cb1db2982443611e568",
+					"jsonFile" : "target-sfml-system-MinSizeRel-2a8052d58775a7f29e59.json",
+					"name" : "sfml-system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-window::@5730451e331e3690ae65",
+					"jsonFile" : "target-sfml-window-MinSizeRel-286b01e0c33de163ff1c.json",
+					"name" : "sfml-window",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbis::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbis-MinSizeRel-ca93f9795417228e4a21.json",
+					"name" : "vorbis",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisenc::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisenc-MinSizeRel-2202d974e2182ac51042.json",
+					"name" : "vorbisenc",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisfile::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisfile-MinSizeRel-ea2982956b5da3bda43b.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 5
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"build" : "_deps/sfml-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build-RelWithDebInfo-bb7e02470ead5aea3c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML-RelWithDebInfo-ce43665c07032d56571e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML"
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.System-RelWithDebInfo-580c6a25c7c204296683.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/System",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Main-RelWithDebInfo-67cb8095bae1dce2bbcf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Main",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Window-RelWithDebInfo-b6592d6e4148d944dd59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Network-RelWithDebInfo-c373a36cad6323376ca0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Graphics",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Graphics-RelWithDebInfo-1c01c60a6214d396e6a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/freetype-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.freetype-build-RelWithDebInfo-09ceee70bb25a037846c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "build/_deps/freetype-src",
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"build" : "_deps/sfml-build/src/SFML/Audio",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Audio-RelWithDebInfo-3943ff13eb625e126172.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sfml-src/src/SFML/Audio",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/ogg-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ogg-build-RelWithDebInfo-45e6adfb2940f3085f14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "build/_deps/ogg-src",
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"build" : "_deps/flac-build",
+					"childIndexes" : 
+					[
+						12,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build-RelWithDebInfo-4e99ab024b5ea219b989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/flac-build/src",
+					"childIndexes" : 
+					[
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src-RelWithDebInfo-1d4dfeeba802ece90ca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src"
+				},
+				{
+					"build" : "_deps/flac-build/src/libFLAC",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.flac-build.src.libFLAC-RelWithDebInfo-a57ee69d0a35bda92664.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/src/libFLAC",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/flac-build/microbench",
+					"jsonFile" : "directory-_deps.flac-build.microbench-RelWithDebInfo-ebc5923c3599b4f464c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "build/_deps/flac-src/microbench"
+				},
+				{
+					"build" : "_deps/vorbis-build",
+					"childIndexes" : 
+					[
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build-RelWithDebInfo-d0d3f7f6a15b4cebe23e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/vorbis-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build.lib-RelWithDebInfo-3c32ac6c9ff24bc22a67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 5,
+					"source" : "build/_deps/vorbis-src/lib",
+					"targetIndexes" : 
+					[
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMakeSFMLProject",
+					"targetIndexes" : 
+					[
+						3,
+						7,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "freetype",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "libogg",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14
+					],
+					"name" : "FLAC",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15,
+						16
+					],
+					"name" : "vorbis",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a488c4273deebb7dbd4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@d05cb0ff2bec6fe78f9d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-08a0a8c1d1698ec4169d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b97c307a8875aa0c2e02.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-385527b5fd537a361dbb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@5df98b4ecdae321c3ae2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9cc3e82fc2e8c75ba8b8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-16d9a62b68cbd80c3d8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "FLAC::@d572677c3819035d9b3d",
+					"jsonFile" : "target-FLAC-RelWithDebInfo-9c6fb2f86c5ed878c528.json",
+					"name" : "FLAC",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-26a7e7d5eb43635d6304.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "freetype::@d06f9f5ffc3cc0b4bd77",
+					"jsonFile" : "target-freetype-RelWithDebInfo-cc3f0aa52106a1fb6b77.json",
+					"name" : "freetype",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-RelWithDebInfo-144fc79fbb969a46b389.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ogg::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ogg-RelWithDebInfo-e0ea55cab67af99e6090.json",
+					"name" : "ogg",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sfml-audio::@a153e5727587c53fce98",
+					"jsonFile" : "target-sfml-audio-RelWithDebInfo-9d5245fbeb8bda9e915b.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
+					"jsonFile" : "target-sfml-graphics-RelWithDebInfo-35ef5e61597ff44a46f9.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-main::@81ec5539f1398dd625f6",
+					"jsonFile" : "target-sfml-main-RelWithDebInfo-bc5094029438bece851c.json",
+					"name" : "sfml-main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-network::@d7f79968b2699e7782cb",
+					"jsonFile" : "target-sfml-network-RelWithDebInfo-fff2aff5a7d94c75bda5.json",
+					"name" : "sfml-network",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml-system::@8cb1db2982443611e568",
+					"jsonFile" : "target-sfml-system-RelWithDebInfo-3f52f0e0d63cb7b15bea.json",
+					"name" : "sfml-system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-window::@5730451e331e3690ae65",
+					"jsonFile" : "target-sfml-window-RelWithDebInfo-ad78312104a680a46a7f.json",
+					"name" : "sfml-window",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbis::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbis-RelWithDebInfo-66660487ded171079896.json",
+					"name" : "vorbis",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisenc::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisenc-RelWithDebInfo-ce5bf046c4abf11625a3.json",
+					"name" : "vorbisenc",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "vorbisfile::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisfile-RelWithDebInfo-fcba46053d7d35182a2a.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/develop_cpp/cmake-sfml-project-master/build",
+		"source" : "D:/develop_cpp/cmake-sfml-project-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

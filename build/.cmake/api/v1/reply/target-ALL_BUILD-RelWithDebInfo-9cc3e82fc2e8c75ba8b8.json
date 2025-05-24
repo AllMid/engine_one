@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build/_deps/vorbis-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "vorbisenc::@692b0ee2b61df6760d20"
+		},
+		{
+			"id" : "vorbis::@692b0ee2b61df6760d20"
+		},
+		{
+			"id" : "vorbisfile::@692b0ee2b61df6760d20"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMake"
+	},
+	"id" : "ALL_BUILD::@5df98b4ecdae321c3ae2",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "_deps/vorbis-build",
+		"source" : "build/_deps/vorbis-src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
