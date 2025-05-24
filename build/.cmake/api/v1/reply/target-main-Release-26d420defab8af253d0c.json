@@ -14,7 +14,6 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries",
 			"target_compile_features"
 		],
 		"files" : 
@@ -35,12 +34,6 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 17,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
 				"line" : 16,
 				"parent" : 0
 			}
@@ -60,7 +53,7 @@
 			{
 				"backtraces" : 
 				[
-					3
+					2
 				],
 				"standard" : "17"
 			},
@@ -92,11 +85,6 @@
 			{
 				"fragment" : "/subsystem:console",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "_deps\\sfml-src\\include\\SFML\\Graphics.hpp",
-				"role" : "libraries"
 			},
 			{
 				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
