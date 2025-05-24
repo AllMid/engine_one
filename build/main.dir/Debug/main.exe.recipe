@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\develop_cpp\cmake-sfml-project-master\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\develop_cpp\engine_one\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\develop_cpp\cmake-sfml-project-master\build\bin\Debug\main.exe</FullPath>
+      <FullPath>D:\develop_cpp\engine_one\build\bin\Debug\main.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
