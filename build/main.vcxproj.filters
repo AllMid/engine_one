@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\develop_cpp\cmake-sfml-project-master\src\main.cpp">
+    <ClCompile Include="D:\develop_cpp\engine_one\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\develop_cpp\cmake-sfml-project-master\CMakeLists.txt" />
+    <CustomBuild Include="D:\develop_cpp\engine_one\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F3A1D4DB-9714-3F9C-A608-8E900D7B36FD}</UniqueIdentifier>
+      <UniqueIdentifier>{E686B4F2-E6FA-300D-B97A-867F1A914B7A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
