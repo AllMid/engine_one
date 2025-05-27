@@ -1,13 +1,13 @@
 #include "files/Engine.h"
- 
+
+using namespace sf;
+
 int main()
 {
-    // Объявляем экземпляр класса Engine
-    Engine engine;
- 
-    // Вызываем функцию start
-    engine.start();
- 
-    // Останавливаем программу программу, когда движок остановлен
+    // Создаём объект игровой движок
+    Engine myGame;
+    // Запускаем игровой движок
+    myGame.run();
+   
     return 0;
 }

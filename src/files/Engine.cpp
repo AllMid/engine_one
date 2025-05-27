@@ -1,39 +1,56 @@
 #include "Engine.h"
+
+void Engine::input()
+{
+	// Объект события
+	//sf::Event event_play;
+
+	while (const std::optional event = window.pollEvent())  // Присвоение отловленного события, объекту событий event_play
+	{
+		// Обработка события нажатия на клавишу Esc
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape))
+        //(event_play.key.code == sf::Keyboard::Key::Escape) 
+            { window.close(); }
+        else if (event->is<sf::Event::Closed>()) 
+            { window.close(); }
+	}
+}
+
+void Engine::update(sf::Time const& deltaTime)
+{
+
+}
+
+void Engine::draw()
+{
+	// Очистка графического окна
+	window.clear(sf::Color::Black);
+	// Отрисовка фона в графическом окне
+	window.draw(background);
+	// Вывод объектов в графическом окне
+	window.display();
+}
+
 Engine::Engine()
 {
-    // Получаем разрешение экрана, создаем окно SFML и View
-    /*Vector2f resolution;
-    resolution.x = VideoMode::getDesktopMode().width;
-    resolution.y = VideoMode::getDesktopMode().height;*/
- 
-    m_Window.create(sf::VideoMode::VideoMode({1024u, 768u}),
-        "Simple Game Engine",
-        State::Fullscreen);
-    /*auto window = sf::RenderWindow(sf::VideoMode({1024u, 768u}), "CMake SFML Engine");*/
-    m_Window.setFramerateLimit(144);
-    // Загружаем фон в текстуру
-    // Подготовьте изображение под ваш размер экрана в редакторе
-    m_BackgroundTexture.loadFromFile("Background_one.jpg");
- 
-    // Связываем спрайт и текстуру
-    m_BackgroundSprite.setTexture(m_BackgroundTexture);
- 
+	// Загрузка текстуры
+	background_texture.loadFromFile("image/background.jpg");
+	// Получение ссылки на текстуру для прямоугольника 
+	background.setTexture(&background_texture);
 }
- 
-void Engine::start()
+
+void Engine::run()
 {
-    // Расчет времени
-    Clock clock;
- 
-    while (m_Window.isOpen())
-    {
-        // Перезапускаем таймер и записываем отмеренное время в dt
-        Time dt = clock.restart();
- 
-        float dtAsSeconds = dt.asSeconds();
- 
-        input();
-        update(dtAsSeconds);
-        draw();
-    }
+	// Объявление переменной часы
+	sf::Clock clock;
+	// Цикл работает пока окно открыто
+	while (window.isOpen())
+	{
+		// Текущее время присваиваем переменной времени dt
+		sf::Time dt = clock.restart();  
+
+		input();
+		update(dt);
+		draw();
+	}
 }
