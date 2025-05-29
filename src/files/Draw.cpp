@@ -3,10 +3,10 @@
 void Engine::draw()
 {
     // Стираем предыдущий кадр
-    m_Window.clear(Color::White);
+    window.clear(Color::White);
  
     // Отрисовываем фон
-    m_Window.draw(m_BackgroundSprite);
+    window.draw(m_BackgroundSprite);
     // И Боба
     m_Window.draw(m_Man.getSprite());
  

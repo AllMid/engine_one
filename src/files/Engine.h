@@ -3,13 +3,14 @@
 #include<SFML/Window.hpp>
 #include<SFML/Graphics.hpp>
 #include<memory>
+#include <iostream>
 
 class Engine
 {
 	// Умный указатель на графическое окно 
 	
-    sf::RenderWindow window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}),
-		L"Пчела на работе", sf::Style::Default);
+    sf::RenderWindow window = sf::RenderWindow(sf::VideoMode({1024u, 768u}),
+		L"Пчела на работе", sf::State::Windowed);
 	// Игровой фон в виде прямоугольника
 	sf::RectangleShape background = sf::RectangleShape(sf::Vector2f(1280, 720));
 	// Текстура прямоугольника
@@ -23,8 +24,8 @@ class Engine
 
 public:
 	// Конструктор
-	Engine(){};
+	Engine();
 	// Метод запуска игрового цикла
-	void run(){};
+	void run();
 
 };

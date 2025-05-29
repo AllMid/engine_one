@@ -1,3 +1,5 @@
+#include <iostream>
+#include <SFML/Window.hpp>
 #include "Engine.h"
 
 void Engine::input()
@@ -34,7 +36,7 @@ void Engine::draw()
 Engine::Engine()
 {
 	// Загрузка текстуры
-	background_texture.loadFromFile("image/background.jpg");
+	background_texture.loadFromFile("../../../src/files/background_one.jpg");
 	// Получение ссылки на текстуру для прямоугольника 
 	background.setTexture(&background_texture);
 }

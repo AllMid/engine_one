@@ -1,4 +1,5 @@
 #include "files/Engine.h"
+#include <iostream>
 
 using namespace sf;
 
@@ -8,6 +9,6 @@ int main()
     Engine myGame;
     // Запускаем игровой движок
     myGame.run();
-   
+    std::cout << "end!";
     return 0;
 }
