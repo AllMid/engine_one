@@ -6,6 +6,7 @@ void Engine::input()
 {
 	// Объект события
 	//sf::Event event_play;
+	//Engine::player_input();
 
 	while (const std::optional event = window.pollEvent())  // Присвоение отловленного события, объекту событий event_play
 	{
@@ -36,9 +37,11 @@ void Engine::draw()
 Engine::Engine()
 {
 	// Загрузка текстуры
-	background_texture.loadFromFile("../../../src/files/background_one.jpg");
+	// background_texture.loadFromFile("../../../src/files/background_one.jpg");
 	// Получение ссылки на текстуру для прямоугольника 
-	background.setTexture(&background_texture);
+	// background.setTexture(&background_texture);
+
+	background.setTexture(&Asset_manager::GetTexture("../../../src/files/background_one.jpg"));
 }
 
 void Engine::run()

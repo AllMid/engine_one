@@ -1,9 +1,10 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "Engine.h"
 
 using namespace sf;
 
-class Man
+class Man : public Engine
 {
     // Все private переменные могут быть доступны только внутри объекта
 private:

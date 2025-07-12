@@ -24,7 +24,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DD80F5B1-EC06-34AB-B5E9-62963E73D9DC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>main</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -329,6 +329,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\develop_cpp\engine_one\src\files\Engine.cpp" />
+    <ClCompile Include="D:\develop_cpp\engine_one\src\files\Asset_manager.cpp" />
     <ClCompile Include="D:\develop_cpp\engine_one\src\main.cpp" />
   </ItemGroup>
   <ItemGroup />

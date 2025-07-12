@@ -2,16 +2,16 @@
 #include <SFML/Window.hpp>
 #include <SFML/Window/Keyboard.hpp>
  
-void Engine::input()
+void Engine::player_input()
 {
     // Обрабатываем нажатие Escape
-    if (Keyboard::isKeyPressed(Keyboard::Key::Escape))
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape))
     {
-        m_Window.close();
+        window.close();
     }
  
     // Обрабатываем нажатие клавиш движения
-    if (Keyboard::isKeyPressed(Keyboard::Key::A))
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
     {
         m_Man.moveLeft();
     }
@@ -20,7 +20,7 @@ void Engine::input()
         m_Man.stopLeft();
     }
  
-    if (Keyboard::isKeyPressed(Keyboard::Key::D))
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
     {
         m_Man.moveRight();
     }
