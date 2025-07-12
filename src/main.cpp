@@ -1,21 +1,14 @@
-#include <SFML/Graphics.hpp>
+#include "files/Engine.h"
+#include <iostream>
+
+using namespace sf;
 
 int main()
 {
-    auto window = sf::RenderWindow(sf::VideoMode({800u, 600u}), "CMake SFML Project");
-    window.setFramerateLimit(144);
-
-    while (window.isOpen())
-    {
-        while (const std::optional event = window.pollEvent())
-        {
-            if (event->is<sf::Event::Closed>())
-            {
-                window.close();
-            }
-        }
-
-        window.clear();
-        window.display();
-    }
+    // Создаём объект игровой движок
+    Engine myGame;
+    // Запускаем игровой движок
+    myGame.run();
+    std::cout << "end!";
+    return 0;
 }
